@@ -1,5 +1,5 @@
 # Twilight Shift
-## App adjust night-shift mode smoothly based on time - once in 5 min based on setup you provide.
+## App adjust night-shift mode smoothly based on time of the day.
 Just drag and drop app into Application directory. 
 Configure Login Items in system settings.
 <p align="center">
