@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E27094D12A75671500F5A8DA /* Twilight_ShiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27094D02A75671500F5A8DA /* Twilight_ShiftApp.swift */; };
+		E27094D52A75671600F5A8DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E27094D42A75671600F5A8DA /* Assets.xcassets */; };
+		E27094D82A75671600F5A8DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E27094D72A75671600F5A8DA /* Preview Assets.xcassets */; };
+		E27094E32A75671600F5A8DA /* Twilight_ShiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27094E22A75671600F5A8DA /* Twilight_ShiftTests.swift */; };
+		E27094ED2A75671600F5A8DA /* Twilight_ShiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27094EC2A75671600F5A8DA /* Twilight_ShiftUITests.swift */; };
+		E27094EF2A75671600F5A8DA /* Twilight_ShiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27094EE2A75671600F5A8DA /* Twilight_ShiftUITestsLaunchTests.swift */; };
+		E2BB9D122A8023E500AFCBC0 /* SliderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BB9D112A8023E500AFCBC0 /* SliderData.swift */; };
+		E2BB9D142A80241200AFCBC0 /* VerticalSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BB9D132A80241200AFCBC0 /* VerticalSliderView.swift */; };
+		E2CADD092A820FAF00D106F2 /* AppLifecycleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CADD082A820FAF00D106F2 /* AppLifecycleManager.swift */; };
+		E2FBB3952A78567700EF8675 /* CoreBrightness.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2FBB3942A78567700EF8675 /* CoreBrightness.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E27094DF2A75671600F5A8DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E27094C52A75671500F5A8DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E27094CC2A75671500F5A8DA;
+			remoteInfo = "Twilight Shift";
+		};
+		E27094E92A75671600F5A8DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E27094C52A75671500F5A8DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E27094CC2A75671500F5A8DA;
+			remoteInfo = "Twilight Shift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E27094CD2A75671500F5A8DA /* Twilight Shift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Twilight Shift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E27094D02A75671500F5A8DA /* Twilight_ShiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Twilight_ShiftApp.swift; sourceTree = "<group>"; };
+		E27094D42A75671600F5A8DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E27094D72A75671600F5A8DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E27094D92A75671600F5A8DA /* Twilight_Shift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Twilight_Shift.entitlements; sourceTree = "<group>"; };
+		E27094DE2A75671600F5A8DA /* Twilight ShiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Twilight ShiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E27094E22A75671600F5A8DA /* Twilight_ShiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Twilight_ShiftTests.swift; sourceTree = "<group>"; };
+		E27094E82A75671600F5A8DA /* Twilight ShiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Twilight ShiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E27094EC2A75671600F5A8DA /* Twilight_ShiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Twilight_ShiftUITests.swift; sourceTree = "<group>"; };
+		E27094EE2A75671600F5A8DA /* Twilight_ShiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Twilight_ShiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E27095172A78262A00F5A8DA /* Twilight-Shift-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Twilight-Shift-Info.plist"; sourceTree = SOURCE_ROOT; };
+		E2BB9D112A8023E500AFCBC0 /* SliderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderData.swift; sourceTree = "<group>"; };
+		E2BB9D132A80241200AFCBC0 /* VerticalSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalSliderView.swift; sourceTree = "<group>"; };
+		E2CADD082A820FAF00D106F2 /* AppLifecycleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLifecycleManager.swift; sourceTree = "<group>"; };
+		E2FBB3942A78567700EF8675 /* CoreBrightness.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBrightness.framework; path = ../../../../System/Library/PrivateFrameworks/CoreBrightness.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E27094CA2A75671500F5A8DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2FBB3952A78567700EF8675 /* CoreBrightness.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E27094DB2A75671600F5A8DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E27094E52A75671600F5A8DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E27094C42A75671500F5A8DA = {
+			isa = PBXGroup;
+			children = (
+				E27095102A781C2300F5A8DA /* Packages */,
+				E27095032A77068800F5A8DA /* headers */,
+				E27094CF2A75671500F5A8DA /* Twilight Shift */,
+				E27094E12A75671600F5A8DA /* Twilight ShiftTests */,
+				E27094EB2A75671600F5A8DA /* Twilight ShiftUITests */,
+				E27094CE2A75671500F5A8DA /* Products */,
+				E27095132A78260700F5A8DA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E27094CE2A75671500F5A8DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E27094CD2A75671500F5A8DA /* Twilight Shift.app */,
+				E27094DE2A75671600F5A8DA /* Twilight ShiftTests.xctest */,
+				E27094E82A75671600F5A8DA /* Twilight ShiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E27094CF2A75671500F5A8DA /* Twilight Shift */ = {
+			isa = PBXGroup;
+			children = (
+				E27095172A78262A00F5A8DA /* Twilight-Shift-Info.plist */,
+				E27094D02A75671500F5A8DA /* Twilight_ShiftApp.swift */,
+				E27094D42A75671600F5A8DA /* Assets.xcassets */,
+				E27094D92A75671600F5A8DA /* Twilight_Shift.entitlements */,
+				E27094D62A75671600F5A8DA /* Preview Content */,
+				E2BB9D112A8023E500AFCBC0 /* SliderData.swift */,
+				E2BB9D132A80241200AFCBC0 /* VerticalSliderView.swift */,
+				E2CADD082A820FAF00D106F2 /* AppLifecycleManager.swift */,
+			);
+			path = "Twilight Shift";
+			sourceTree = "<group>";
+		};
+		E27094D62A75671600F5A8DA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E27094D72A75671600F5A8DA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E27094E12A75671600F5A8DA /* Twilight ShiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				E27094E22A75671600F5A8DA /* Twilight_ShiftTests.swift */,
+			);
+			path = "Twilight ShiftTests";
+			sourceTree = "<group>";
+		};
+		E27094EB2A75671600F5A8DA /* Twilight ShiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E27094EC2A75671600F5A8DA /* Twilight_ShiftUITests.swift */,
+				E27094EE2A75671600F5A8DA /* Twilight_ShiftUITestsLaunchTests.swift */,
+			);
+			path = "Twilight ShiftUITests";
+			sourceTree = "<group>";
+		};
+		E27095032A77068800F5A8DA /* headers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = headers;
+			sourceTree = "<group>";
+		};
+		E27095102A781C2300F5A8DA /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		E27095132A78260700F5A8DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2FBB3942A78567700EF8675 /* CoreBrightness.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E27094CC2A75671500F5A8DA /* Twilight Shift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E27094F22A75671600F5A8DA /* Build configuration list for PBXNativeTarget "Twilight Shift" */;
+			buildPhases = (
+				E27094C92A75671500F5A8DA /* Sources */,
+				E27094CA2A75671500F5A8DA /* Frameworks */,
+				E27094CB2A75671500F5A8DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Twilight Shift";
+			packageProductDependencies = (
+			);
+			productName = "Twilight Shift";
+			productReference = E27094CD2A75671500F5A8DA /* Twilight Shift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E27094DD2A75671600F5A8DA /* Twilight ShiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E27094F52A75671600F5A8DA /* Build configuration list for PBXNativeTarget "Twilight ShiftTests" */;
+			buildPhases = (
+				E27094DA2A75671600F5A8DA /* Sources */,
+				E27094DB2A75671600F5A8DA /* Frameworks */,
+				E27094DC2A75671600F5A8DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E27094E02A75671600F5A8DA /* PBXTargetDependency */,
+			);
+			name = "Twilight ShiftTests";
+			productName = "Twilight ShiftTests";
+			productReference = E27094DE2A75671600F5A8DA /* Twilight ShiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E27094E72A75671600F5A8DA /* Twilight ShiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E27094F82A75671600F5A8DA /* Build configuration list for PBXNativeTarget "Twilight ShiftUITests" */;
+			buildPhases = (
+				E27094E42A75671600F5A8DA /* Sources */,
+				E27094E52A75671600F5A8DA /* Frameworks */,
+				E27094E62A75671600F5A8DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E27094EA2A75671600F5A8DA /* PBXTargetDependency */,
+			);
+			name = "Twilight ShiftUITests";
+			productName = "Twilight ShiftUITests";
+			productReference = E27094E82A75671600F5A8DA /* Twilight ShiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E27094C52A75671500F5A8DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					E27094CC2A75671500F5A8DA = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					E27094DD2A75671600F5A8DA = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = E27094CC2A75671500F5A8DA;
+					};
+					E27094E72A75671600F5A8DA = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = E27094CC2A75671500F5A8DA;
+					};
+				};
+			};
+			buildConfigurationList = E27094C82A75671500F5A8DA /* Build configuration list for PBXProject "Twilight Shift" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E27094C42A75671500F5A8DA;
+			productRefGroup = E27094CE2A75671500F5A8DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E27094CC2A75671500F5A8DA /* Twilight Shift */,
+				E27094DD2A75671600F5A8DA /* Twilight ShiftTests */,
+				E27094E72A75671600F5A8DA /* Twilight ShiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E27094CB2A75671500F5A8DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E27094D82A75671600F5A8DA /* Preview Assets.xcassets in Resources */,
+				E27094D52A75671600F5A8DA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E27094DC2A75671600F5A8DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E27094E62A75671600F5A8DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E27094C92A75671500F5A8DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2CADD092A820FAF00D106F2 /* AppLifecycleManager.swift in Sources */,
+				E2BB9D122A8023E500AFCBC0 /* SliderData.swift in Sources */,
+				E27094D12A75671500F5A8DA /* Twilight_ShiftApp.swift in Sources */,
+				E2BB9D142A80241200AFCBC0 /* VerticalSliderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E27094DA2A75671600F5A8DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E27094E32A75671600F5A8DA /* Twilight_ShiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E27094E42A75671600F5A8DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E27094ED2A75671600F5A8DA /* Twilight_ShiftUITests.swift in Sources */,
+				E27094EF2A75671600F5A8DA /* Twilight_ShiftUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E27094E02A75671600F5A8DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E27094CC2A75671500F5A8DA /* Twilight Shift */;
+			targetProxy = E27094DF2A75671600F5A8DA /* PBXContainerItemProxy */;
+		};
+		E27094EA2A75671600F5A8DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E27094CC2A75671500F5A8DA /* Twilight Shift */;
+			targetProxy = E27094E92A75671600F5A8DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E27094F02A75671600F5A8DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					x86_64,
+					arm64,
+				);
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E27094F12A75671600F5A8DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					x86_64,
+					arm64,
+				);
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E27094F32A75671600F5A8DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				ARCHS = (
+					x86_64,
+					arm64,
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = lamp28;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Twilight Shift/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Twilight-Shift-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Twilight Shift";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
+				"OTHER_LDFLAGS[arch=*]" = "-v";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lupa.twilight.Twilight-Shift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "watchsimulator watchos macosx iphonesimulator iphoneos driverkit appletvsimulator appletvos";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "headers/Nocturnal-Bridging-Header.h";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+				TARGETED_DEVICE_FAMILY = "3,4,6";
+			};
+			name = Debug;
+		};
+		E27094F42A75671600F5A8DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				ARCHS = (
+					x86_64,
+					arm64,
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = lamp28;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Twilight Shift/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Twilight-Shift-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Twilight Shift";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
+				"OTHER_LDFLAGS[arch=*]" = "-v";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lupa.twilight.Twilight-Shift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "watchsimulator watchos macosx iphonesimulator iphoneos driverkit appletvsimulator appletvos";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "headers/Nocturnal-Bridging-Header.h";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+				TARGETED_DEVICE_FAMILY = "3,4,6";
+			};
+			name = Release;
+		};
+		E27094F62A75671600F5A8DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				"OTHER_LDFLAGS[arch=*]" = "-v";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lupa.twilight.Twilight-ShiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Twilight Shift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Twilight Shift";
+			};
+			name = Debug;
+		};
+		E27094F72A75671600F5A8DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				"OTHER_LDFLAGS[arch=*]" = "-v";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lupa.twilight.Twilight-ShiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Twilight Shift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Twilight Shift";
+			};
+			name = Release;
+		};
+		E27094F92A75671600F5A8DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lupa.twilight.Twilight-ShiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Twilight Shift";
+			};
+			name = Debug;
+		};
+		E27094FA2A75671600F5A8DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lupa.twilight.Twilight-ShiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Twilight Shift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E27094C82A75671500F5A8DA /* Build configuration list for PBXProject "Twilight Shift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E27094F02A75671600F5A8DA /* Debug */,
+				E27094F12A75671600F5A8DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E27094F22A75671600F5A8DA /* Build configuration list for PBXNativeTarget "Twilight Shift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E27094F32A75671600F5A8DA /* Debug */,
+				E27094F42A75671600F5A8DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E27094F52A75671600F5A8DA /* Build configuration list for PBXNativeTarget "Twilight ShiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E27094F62A75671600F5A8DA /* Debug */,
+				E27094F72A75671600F5A8DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E27094F82A75671600F5A8DA /* Build configuration list for PBXNativeTarget "Twilight ShiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E27094F92A75671600F5A8DA /* Debug */,
+				E27094FA2A75671600F5A8DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E27094C52A75671500F5A8DA /* Project object */;
+}
